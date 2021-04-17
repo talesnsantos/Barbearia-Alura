@@ -1,0 +1,110 @@
+
+
+header{
+    background:#bbbbbb;
+    padding:20px 0 ;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    }
+
+nav{
+    position: absolute;
+    top: 110px;
+    right:0; 
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    }
+
+
+nav a:hover{ /*quando o mouser esta por cima do elemento*/
+    color: #c78c19;
+    text-decoration: underline;
+} 
+
+footer {
+    text-align: center;
+    background:url("../IMG/bg.jpg");
+    padding: 50px 0;
+}
+
+.copyright{
+    color: white;
+    margin: 20px 0 0;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cadastro{
+    margin: 40px 0;
+    
+}
+
+.cadastro label, .cadastro legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao input,.input-padrao textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background:orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border:none;
+    border-radius:5px;
+    transition:0.5s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background:darkgoldenrod;
+   
+    transform: rotate(10deg) scale(1.2); /*aumenta em 20% o botão e gira 10 graus*/
+}
+
+table{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+table thead {
+    background:#555555 ;
+    color: white;
+    font-weight: bold;
+}
+
+table td, table th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

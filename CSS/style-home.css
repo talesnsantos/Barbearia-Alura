@@ -1,0 +1,79 @@
+
+/*
+
+---- ID = # (cerquilha/sustenido/jogo da velha)
+---- Class = . (ponto final)
+
+padding{
+    top
+    left
+
+}
+*/
+body{
+    background:blanchedalmond;
+}
+
+.cabecalho{
+    padding-left: 20px;
+}
+
+#banner{
+    width: 99%;
+    border: 5px solid black;    
+    /*padding:; espaçamento interno - margem interna*/
+    margin: 0; /*espaçamento externo*/
+
+}
+
+p {
+    text-align: center;
+}
+
+em strong { 
+    /*alteração sera feita para o strong dentro de uma tag <em>*/
+    color: red; /*color é para a cor do texto*/
+}
+
+#missao{
+    font-size: 20px;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.itens {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.principal{
+    background:#cccccc; /*background cor do fundo*/
+    padding: 30px;
+}
+
+.beneficios{
+    background:blanchedalmond;
+    padding: 20px;
+}
+
+.beneficios ul li{
+    font-size: 25px;
+}
+
+.list-beneficios{
+    display:inline-block;
+    vertical-align:top;
+    width:20%;
+    margin-right:15%;
+}
+
+#beneficioImg{
+    width: 50%;
+    height: 50%;
+    border: 5px solid black;    
+    /*padding:; espaçamento interno - margem interna*/
+    margin: 2px; /*espaçamento externo*/
+}
